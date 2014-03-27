@@ -15856,6 +15856,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="U$4" library="SparkFun_08_2011" deviceset="OSHW-LOGO" device="S"/>
 <part name="X3" library="SparkFun" deviceset="USB" device="-MICROB"/>
 <part name="X4" library="SparkFun" deviceset="USB" device="-A-SMD"/>
+<part name="R3" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="470R, 0603"/>
+<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="470R, 0603"/>
 </parts>
 <sheets>
 <sheet>
@@ -15988,9 +15990,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="NAME" x="154.94" y="231.14" size="1.778" layer="95"/>
 <attribute name="VALUE" x="154.94" y="228.6" size="1.778" layer="96"/>
 </instance>
-<instance part="FTDI" gate="G$1" x="121.92" y="165.1" smashed="yes">
-<attribute name="VALUE" x="116.84" y="177.8" size="1.778" layer="96"/>
-<attribute name="NAME" x="116.84" y="180.34" size="1.778" layer="95"/>
+<instance part="FTDI" gate="G$1" x="116.84" y="167.64" smashed="yes">
+<attribute name="VALUE" x="109.22" y="170.18" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="109.22" y="172.72" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="POWER" gate="G$1" x="266.7" y="22.86" smashed="yes">
 <attribute name="NAME" x="269.748" y="19.304" size="1.778" layer="95"/>
@@ -16027,6 +16029,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="U$4" gate="G$1" x="327.66" y="15.24"/>
 <instance part="X3" gate="G$1" x="320.04" y="35.56"/>
 <instance part="X4" gate="G$1" x="358.14" y="35.56"/>
+<instance part="R3" gate="G$1" x="144.78" y="162.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="142.24" y="157.48" size="1.778" layer="95"/>
+<attribute name="VALUE" x="142.24" y="154.94" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="144.78" y="167.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="142.24" y="172.72" size="1.778" layer="95"/>
+<attribute name="VALUE" x="142.24" y="170.18" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17050,8 +17060,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="FTDI" gate="G$1" pin="5"/>
-<wire x1="127" y1="170.18" x2="132.08" y2="170.18" width="0.1524" layer="91"/>
-<label x="134.62" y="170.18" size="1.778" layer="95"/>
+<wire x1="121.92" y1="172.72" x2="127" y2="172.72" width="0.1524" layer="91"/>
+<label x="129.54" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RB15" class="0">
@@ -17066,9 +17076,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="53.34" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FTDI" gate="G$1" pin="1"/>
-<wire x1="127" y1="160.02" x2="132.08" y2="160.02" width="0.1524" layer="91"/>
-<label x="134.62" y="160.02" size="1.778" layer="95"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="162.56" x2="154.94" y2="162.56" width="0.1524" layer="91"/>
+<label x="157.48" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RH4" class="0">
@@ -17131,9 +17141,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="25.4" y="137.16" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="FTDI" gate="G$1" pin="3"/>
-<wire x1="127" y1="165.1" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
-<label x="134.62" y="165.1" size="1.778" layer="95"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="167.64" x2="154.94" y2="167.64" width="0.1524" layer="91"/>
+<label x="157.48" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RD15" class="0">
@@ -17149,8 +17159,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="FTDI" gate="G$1" pin="2"/>
-<wire x1="127" y1="162.56" x2="132.08" y2="162.56" width="0.1524" layer="91"/>
-<label x="134.62" y="162.56" size="1.778" layer="95"/>
+<wire x1="121.92" y1="165.1" x2="127" y2="165.1" width="0.1524" layer="91"/>
+<label x="129.54" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RC12" class="0">
@@ -17869,8 +17879,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="FTDI" gate="G$1" pin="6"/>
-<wire x1="127" y1="172.72" x2="132.08" y2="172.72" width="0.1524" layer="91"/>
-<label x="134.62" y="172.72" size="1.778" layer="95"/>
+<wire x1="121.92" y1="175.26" x2="127" y2="175.26" width="0.1524" layer="91"/>
+<label x="129.54" y="175.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="236.22" y1="241.3" x2="236.22" y2="236.22" width="0.1524" layer="91"/>
@@ -18101,8 +18111,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <net name="VIN" class="0">
 <segment>
 <pinref part="FTDI" gate="G$1" pin="4"/>
-<wire x1="127" y1="167.64" x2="132.08" y2="167.64" width="0.1524" layer="91"/>
-<label x="134.62" y="167.64" size="1.778" layer="95"/>
+<wire x1="121.92" y1="170.18" x2="127" y2="170.18" width="0.1524" layer="91"/>
+<label x="129.54" y="170.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="IN"/>
@@ -18124,6 +18134,20 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="POWER" gate="G$1" pin="A"/>
 <wire x1="266.7" y1="27.94" x2="266.7" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="FTDI" gate="G$1" pin="3"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="167.64" x2="139.7" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="FTDI" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="162.56" x2="139.7" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
