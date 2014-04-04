@@ -14,4 +14,11 @@ Features
 * USB A (host) and micro USB B (device) sockets
 * [3.3 V, 1 A dropout regulator](http://www.analog.com/en/power-management/linear-regulators/adp3338/products/product.html)
 
+Images
+------
+
 <img src="https://raw.github.com/xioTechnologies/PIC32MZ-Bare-Bones/master/PCB%20In%20Eagle.png"/>
+
+<img src="https://raw.githubusercontent.com/xioTechnologies/PIC32MZ-Bare-Bones/master/PCB%20Photo%20Top.jpg"/>
+
+<img src="https://raw.githubusercontent.com/xioTechnologies/PIC32MZ-Bare-Bones/master/PCB%20Photo%20Bottom.jpg"/>
