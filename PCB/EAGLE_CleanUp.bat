@@ -30,12 +30,20 @@ echo Removing "*.dri" files...
 for /f "delims==" %%i in ('dir /b /on /s "%~p0*.dri"') do del "%%i" /f /q
 echo.
 
-echo Removing "*.COP_BOT" files...
-for /f "delims==" %%i in ('dir /b /on /s "%~p0*.COP_BOT"') do del "%%i" /f /q
+echo Removing "*.COPPER_BOTTOM" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.COPPER_BOTTOM"') do del "%%i" /f /q
 echo.
 
-echo Removing "*.COP_TOP" files...
-for /f "delims==" %%i in ('dir /b /on /s "%~p0*.COP_TOP"') do del "%%i" /f /q
+echo Removing "*.COPPER_INNER_BOTTOM" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.COPPER_INNER_BOTTOM"') do del "%%i" /f /q
+echo.
+
+echo Removing "*.COPPER_INNER_TOP" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.COPPER_INNER_TOP"') do del "%%i" /f /q
+echo.
+
+echo Removing "*.COPPER_TOP" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.COPPER_TOP"') do del "%%i" /f /q
 echo.
 
 echo Removing "*.DRILL" files...
@@ -46,36 +54,68 @@ echo Removing "*.MILL" files...
 for /f "delims==" %%i in ('dir /b /on /s "%~p0*.MILL"') do del "%%i" /f /q
 echo.
 
-echo Removing "*.MSK_BOT" files...
-for /f "delims==" %%i in ('dir /b /on /s "%~p0*.MSK_BOT"') do del "%%i" /f /q
+echo Removing "*.MSK_BOTTOM" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.MASK_BOTTOM"') do del "%%i" /f /q
 echo.
 
 echo Removing "*.MSK_TOP" files...
-for /f "delims==" %%i in ('dir /b /on /s "%~p0*.MSK_TOP"') do del "%%i" /f /q
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.MASK_TOP"') do del "%%i" /f /q
 echo.
 
-echo Removing "*.SLK_BOT" files...
-for /f "delims==" %%i in ('dir /b /on /s "%~p0*.SLK_BOT"') do del "%%i" /f /q
+echo Removing "*.SILK_BOTTOM" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.SILK_BOTTOM"') do del "%%i" /f /q
 echo.
 
-echo Removing "*.SLK_TOP" files...
-for /f "delims==" %%i in ('dir /b /on /s "%~p0*.SLK_TOP"') do del "%%i" /f /q
+echo Removing "*.SILK_TOP" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.SILK_TOP"') do del "%%i" /f /q
 echo.
 
-echo Removing "*.INFO_BOT" files...
-for /f "delims==" %%i in ('dir /b /on /s "%~p0*.INFO_BOT"') do del "%%i" /f /q
+echo Removing "*.INFO_BOTTOM" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.INFO_BOTTOM"') do del "%%i" /f /q
 echo.
 
 echo Removing "*.INFO_TOP" files...
 for /f "delims==" %%i in ('dir /b /on /s "%~p0*.INFO_TOP"') do del "%%i" /f /q
 echo.
 
-echo Removing "*.PST_BOT" files...
-for /f "delims==" %%i in ('dir /b /on /s "%~p0*.PST_BOT"') do del "%%i" /f /q
+echo Removing "*.PASTE_BOTTOM" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.PASTE_BOTTOM"') do del "%%i" /f /q
 echo.
 
-echo Removing "*.PST_TOP" files...
-for /f "delims==" %%i in ('dir /b /on /s "%~p0*.PST_TOP"') do del "%%i" /f /q
+echo Removing "*.PASTE_TOP" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.PASTE_TOP"') do del "%%i" /f /q
+echo.
+
+echo Removing "*.GTL" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.GTL"') do del "%%i" /f /q
+echo.
+
+echo Removing "*.GBL " files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.GBL"') do del "%%i" /f /q
+echo.
+
+echo Removing "*.GTS" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.GTS"') do del "%%i" /f /q
+echo.
+
+echo Removing "*.GBS" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.GBS"') do del "%%i" /f /q
+echo.
+
+echo Removing "*.GTO" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.GTO"') do del "%%i" /f /q
+echo.
+
+echo Removing "*.GBO" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.GBO"') do del "%%i" /f /q
+echo.
+
+echo Removing "*.GKO" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.GKO"') do del "%%i" /f /q
+echo.
+
+echo Removing "*.XLN" files...
+for /f "delims==" %%i in ('dir /b /on /s "%~p0*.XLN"') do del "%%i" /f /q
 echo.
 
 echo "%~n0.bat" done.
