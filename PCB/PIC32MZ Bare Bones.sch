@@ -15817,7 +15817,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </class>
 </classes>
 <parts>
-<part name="U1" library="x-io" deviceset="PIC32MZ2048EC(G/H/M)144" device="-PL" value="PIC32MZxxxxEFxx144-PL"/>
+<part name="U1" library="x-io" deviceset="PIC32MZ2048EC(G/H/M)144" device="-PL" value="PIC32MZxxxxEFx144-PL"/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="H1" library="pinhead" deviceset="PINHD-2X18" device="" value="VALCON: B23-1X18-BG1-G"/>
 <part name="H2" library="pinhead" deviceset="PINHD-2X18" device="" value="VALCON: B23-1X18-BG1-G"/>
