@@ -15817,19 +15817,19 @@ We've spent an enormous amount of time creating and checking these footprints an
 </class>
 </classes>
 <parts>
-<part name="U1" library="x-io" deviceset="PIC32MZ2048EC(G/H/M)144" device="-PL"/>
+<part name="U1" library="x-io" deviceset="PIC32MZ2048EC(G/H/M)144" device="-PL" value="PIC32MZxxxxEFxx144-PL"/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="H1" library="pinhead" deviceset="PINHD-2X18" device=""/>
-<part name="H2" library="pinhead" deviceset="PINHD-2X18" device=""/>
-<part name="H3" library="pinhead" deviceset="PINHD-2X18" device=""/>
-<part name="H4" library="pinhead" deviceset="PINHD-2X18" device=""/>
+<part name="H1" library="pinhead" deviceset="PINHD-2X18" device="" value="VALCON: B23-1X18-BG1-G"/>
+<part name="H2" library="pinhead" deviceset="PINHD-2X18" device="" value="VALCON: B23-1X18-BG1-G"/>
+<part name="H3" library="pinhead" deviceset="PINHD-2X18" device="" value="VALCON: B23-1X18-BG1-G"/>
+<part name="H4" library="pinhead" deviceset="PINHD-2X18" device="" value="VALCON: B23-1X18-BG1-G"/>
 <part name="X1" library="x-io" deviceset="ABM8" device="" value="24MHz, Abracon ABM8"/>
 <part name="C1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="22p, 0603"/>
 <part name="C2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="22p, 0603"/>
 <part name="X2" library="crystal" deviceset="CRYSTAL" device="TC26H" value="32.768kHz"/>
 <part name="C3" library="SparkFun" deviceset="CAP" device="0603-CAP" value="18p, 0603"/>
 <part name="C4" library="SparkFun" deviceset="CAP" device="0603-CAP" value="18p, 0603"/>
-<part name="ICD3" library="SparkFun" deviceset="RJ11-6" device="PTH" value="RJ11"/>
+<part name="ICD3" library="SparkFun" deviceset="RJ11-6" device="PTH" value="Molex 95501-2661"/>
 <part name="C5" library="SparkFun" deviceset="CAP" device="0603-CAP" value="100n, 0603"/>
 <part name="C6" library="SparkFun" deviceset="CAP" device="0603-CAP" value="100n, 0603"/>
 <part name="C7" library="SparkFun" deviceset="CAP" device="0603-CAP" value="100n, 0603"/>
@@ -15842,17 +15842,17 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="C13" library="SparkFun" deviceset="CAP" device="0603-CAP" value="100n, 0603"/>
 <part name="L1" library="SparkFun" deviceset="INDUCTOR" device="1007" value="6u8, MLF2012E6R8KT"/>
 <part name="C15" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10u, 0603"/>
-<part name="RESET" library="SparkFun" deviceset="TAC_SWITCH" device="PTH" value="sparkfun: COM-00097"/>
+<part name="RESET" library="SparkFun" deviceset="TAC_SWITCH" device="PTH" value="TE Connectivity: FSM4JAH"/>
 <part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="FTDI" library="SparkFun" deviceset="M06" device="SIP" value="6-way right-angled header"/>
+<part name="FTDI" library="SparkFun" deviceset="M06" device="SIP" value="Sparfun: COM-00553"/>
 <part name="POWER" library="SparkFun" deviceset="LED" device="0603" value="0603"/>
 <part name="R2" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="470R, 0603"/>
 <part name="U2" library="x-io" deviceset="ADP3338" device="" value="ADP3338AKCZ-3.3"/>
-<part name="C16" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4u7, 0603"/>
-<part name="C17" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4u7, 0603"/>
+<part name="C16" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10u, 0603"/>
+<part name="C17" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10u, 0603"/>
 <part name="C18" library="rcl" deviceset="CPOL-US" device="SMCD" value="220u, 6.3V, Tant, D"/>
 <part name="JUMPER" library="SparkFun" deviceset="JUMPER-2" device="SMD-NO"/>
-<part name="PICKIT3" library="SparkFun" deviceset="M06" device="SIP" value="6-way right-angled header"/>
+<part name="PICKIT3" library="SparkFun" deviceset="M06" device="SIP" value="Sparfun: PRT-09174"/>
 <part name="U$4" library="SparkFun_08_2011" deviceset="OSHW-LOGO" device="S"/>
 <part name="X3" library="SparkFun" deviceset="USB" device="-MICROB"/>
 <part name="X4" library="SparkFun" deviceset="USB" device="-A-SMD"/>
@@ -15871,7 +15871,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="177.8" y1="254" x2="177.8" y2="114.3" width="0.1524" layer="97"/>
 <wire x1="177.8" y1="114.3" x2="381" y2="114.3" width="0.1524" layer="97"/>
 <wire x1="381" y1="114.3" x2="381" y2="254" width="0.1524" layer="97"/>
-<text x="180.34" y="248.92" size="2.54" layer="97">PIC32MZxxxxECx144</text>
+<text x="180.34" y="248.92" size="2.54" layer="97">PIC32MZ</text>
 <wire x1="76.2" y1="254" x2="121.92" y2="254" width="0.1524" layer="97"/>
 <wire x1="121.92" y1="254" x2="121.92" y2="190.5" width="0.1524" layer="97"/>
 <wire x1="121.92" y1="190.5" x2="76.2" y2="190.5" width="0.1524" layer="97"/>
@@ -15935,10 +15935,22 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="VALUE" x="337.82" y="129.54" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="H1" gate="A" x="38.1" y="215.9"/>
-<instance part="H2" gate="A" x="38.1" y="157.48"/>
-<instance part="H3" gate="A" x="38.1" y="96.52"/>
-<instance part="H4" gate="A" x="38.1" y="38.1"/>
+<instance part="H1" gate="A" x="38.1" y="215.9" smashed="yes">
+<attribute name="NAME" x="30.48" y="243.84" size="1.778" layer="95"/>
+<attribute name="VALUE" x="30.48" y="241.3" size="1.778" layer="96"/>
+</instance>
+<instance part="H2" gate="A" x="38.1" y="157.48" smashed="yes">
+<attribute name="NAME" x="30.48" y="185.42" size="1.778" layer="95"/>
+<attribute name="VALUE" x="30.48" y="182.88" size="1.778" layer="96"/>
+</instance>
+<instance part="H3" gate="A" x="38.1" y="96.52" smashed="yes">
+<attribute name="NAME" x="30.48" y="124.46" size="1.778" layer="95"/>
+<attribute name="VALUE" x="30.48" y="121.92" size="1.778" layer="96"/>
+</instance>
+<instance part="H4" gate="A" x="38.1" y="38.1" smashed="yes">
+<attribute name="NAME" x="30.48" y="66.04" size="1.778" layer="95"/>
+<attribute name="VALUE" x="30.48" y="63.5" size="1.778" layer="96"/>
+</instance>
 <instance part="X1" gate="G$1" x="124.46" y="119.38" smashed="yes">
 <attribute name="NAME" x="116.84" y="111.76" size="1.778" layer="95"/>
 <attribute name="VALUE" x="116.84" y="109.22" size="1.778" layer="96"/>
@@ -15982,13 +15994,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="VALUE" x="314.96" y="93.98" size="1.778" layer="96"/>
 </instance>
 <instance part="C15" gate="G$1" x="330.2" y="81.28"/>
-<instance part="RESET" gate="S" x="152.4" y="215.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="149.86" y="210.82" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="149.86" y="208.28" size="1.778" layer="96" rot="R180"/>
+<instance part="RESET" gate="S" x="160.02" y="215.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="157.48" y="210.82" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="157.48" y="208.28" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R1" gate="G$1" x="152.4" y="231.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="154.94" y="231.14" size="1.778" layer="95"/>
-<attribute name="VALUE" x="154.94" y="228.6" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="160.02" y="231.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="162.56" y="231.14" size="1.778" layer="95"/>
+<attribute name="VALUE" x="162.56" y="228.6" size="1.778" layer="96"/>
 </instance>
 <instance part="FTDI" gate="G$1" x="116.84" y="167.64" smashed="yes">
 <attribute name="VALUE" x="109.22" y="170.18" size="1.778" layer="96" rot="R180"/>
@@ -17348,8 +17360,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="236.22" x2="152.4" y2="238.76" width="0.1524" layer="91"/>
-<label x="152.4" y="241.3" size="1.778" layer="95" rot="R90"/>
+<wire x1="160.02" y1="236.22" x2="160.02" y2="238.76" width="0.1524" layer="91"/>
+<label x="160.02" y="241.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -17837,16 +17849,16 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="RESET" gate="S" pin="3"/>
-<wire x1="152.4" y1="220.98" x2="152.4" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="220.98" x2="160.02" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="RESET" gate="S" pin="4"/>
-<wire x1="152.4" y1="223.52" x2="152.4" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="223.52" x2="154.94" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="223.52" x2="154.94" y2="220.98" width="0.1524" layer="91"/>
-<junction x="152.4" y="223.52"/>
-<wire x1="154.94" y1="223.52" x2="162.56" y2="223.52" width="0.1524" layer="91"/>
-<junction x="154.94" y="223.52"/>
+<wire x1="160.02" y1="223.52" x2="160.02" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="223.52" x2="162.56" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="223.52" x2="162.56" y2="220.98" width="0.1524" layer="91"/>
+<junction x="160.02" y="223.52"/>
+<wire x1="162.56" y1="223.52" x2="152.4" y2="223.52" width="0.1524" layer="91"/>
+<junction x="162.56" y="223.52"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<label x="165.1" y="223.52" size="1.778" layer="95"/>
+<label x="149.86" y="223.52" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="PICKIT3" gate="G$1" pin="1"/>
@@ -17869,13 +17881,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <net name="GND" class="0">
 <segment>
 <pinref part="RESET" gate="S" pin="1"/>
-<wire x1="152.4" y1="210.82" x2="152.4" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="210.82" x2="160.02" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="RESET" gate="S" pin="2"/>
-<wire x1="152.4" y1="208.28" x2="152.4" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="208.28" x2="154.94" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="208.28" x2="154.94" y2="210.82" width="0.1524" layer="91"/>
-<junction x="152.4" y="208.28"/>
-<label x="152.4" y="200.66" size="1.778" layer="95" rot="R270"/>
+<wire x1="160.02" y1="208.28" x2="160.02" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="208.28" x2="162.56" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="208.28" x2="162.56" y2="210.82" width="0.1524" layer="91"/>
+<junction x="160.02" y="208.28"/>
+<label x="160.02" y="200.66" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
 <pinref part="FTDI" gate="G$1" pin="6"/>
