@@ -17,6 +17,6 @@ Features
 Images
 ------
 
-<img src="https://raw.githubusercontent.com/xioTechnologies/PIC32MZ-Bare-Bones/master/PCB%20Photo%20Top.jpg"/>
+<img src="https://github.com/xioTechnologies/PIC32MZ-Bare-Bones/blob/master/PCB%20Top.jpg"/>
 
-<img src="https://raw.githubusercontent.com/xioTechnologies/PIC32MZ-Bare-Bones/master/PCB%20Photo%20Bottom.jpg"/>
+<img src="https://github.com/xioTechnologies/PIC32MZ-Bare-Bones/blob/master/PCB%20Bottom.jpg"/>
